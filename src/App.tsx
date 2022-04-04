@@ -1,11 +1,10 @@
-import { Counter } from './bases/Counter';
-
+import { Navigation } from "./routes/Navigation";
 
 function App() {
   return (
-      <>
-        <Counter />
-      </>
+    <>
+      <Navigation />
+    </>
   );
 }
 
